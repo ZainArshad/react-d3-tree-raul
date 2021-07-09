@@ -1,0 +1,80 @@
+{
+  "name": "Sales",
+  "attributes": {
+        "amount": "100$"
+      },
+  "children": [
+    {
+      "name": "New Client",
+      "attributes": {
+        "amount": "1200$"
+      },
+      "children": [
+	  {
+	  "name": "Purchase1",
+          "attributes": {
+            "amount": "1010$"
+          }
+		  },
+        {
+		
+          "name": "Purchase",
+          "attributes": {
+            "amount": "1010$"
+          },
+          "children": [
+            {
+              "name": "Workers",
+			  "attributes": {
+        "amount": "1001$"
+      },"children": [
+            {
+              "name": "Level4",
+			  "attributes": {
+				"amount": "100$"
+				}
+            }
+          ]
+            }
+          ]
+        },
+        {
+          "name": "Salary",
+          "attributes": {
+            "amount": "$1001"
+          },
+          "children": [
+            {
+              "name": "Payment",
+			  "attributes": {
+        "amount": "1030$"
+      }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Manager",
+      "attributes": {
+        "amount": "123$"
+      },
+      "children": [
+        {
+          "name": "Sales Officer",
+          "attributes": {
+            "amount": "1421$"
+          },
+          "children": [
+            {
+              "name": "Client",
+			  "attributes": {
+        "amount": "1010$"
+      }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
